@@ -61,7 +61,7 @@ class _LetterSoundScreenState extends State<LetterSoundScreen>
       CurvedAnimation(parent: _shakeController, curve: Curves.elasticIn),
     );
     _nextRound();
-    _audio.playMusic('audio/music/jungle_theme.mp3');
+    _audio.playMusic('audio/music/jungle_theme.wav');
   }
 
   @override

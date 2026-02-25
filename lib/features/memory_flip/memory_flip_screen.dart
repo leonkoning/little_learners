@@ -36,7 +36,7 @@ class _MemoryFlipScreenState extends State<MemoryFlipScreen> {
   void initState() {
     super.initState();
     _setupGame();
-    _audio.playMusic('audio/music/garden_theme.mp3');
+    _audio.playMusic('audio/music/garden_theme.wav');
   }
 
   @override

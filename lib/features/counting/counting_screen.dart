@@ -39,7 +39,7 @@ class _CountingScreenState extends State<CountingScreen> {
   void initState() {
     super.initState();
     _nextRound();
-    _audio.playMusic('audio/music/ocean_theme.mp3');
+    _audio.playMusic('audio/music/ocean_theme.wav');
   }
 
   @override

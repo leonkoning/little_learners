@@ -53,7 +53,7 @@ class _ColorSortScreenState extends State<ColorSortScreen>
   void initState() {
     super.initState();
     _setupRound();
-    _audio.playMusic('audio/music/candy_theme.mp3');
+    _audio.playMusic('audio/music/candy_theme.wav');
   }
 
   @override

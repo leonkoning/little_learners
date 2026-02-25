@@ -69,21 +69,21 @@ class AudioService {
   // ── Convenience SFX with TTS praise fallback ──────────────────────────────
 
   Future<void> playCorrect() async {
-    await playSfx('audio/sfx/correct.mp3');
+    await playSfx('audio/sfx/correct.wav');
     await _speak(_correctPhrases[_praiseIndex++ % _correctPhrases.length]);
   }
 
   Future<void> playWrong() async {
-    await playSfx('audio/sfx/wrong.mp3');
+    await playSfx('audio/sfx/wrong.wav');
   }
 
   Future<void> playCelebration() async {
-    await playSfx('audio/sfx/celebration.mp3');
+    await playSfx('audio/sfx/celebration.wav');
     await _speak('Amazing job!');
   }
 
   Future<void> playTap() async {
-    await playSfx('audio/sfx/tap.mp3');
+    await playSfx('audio/sfx/tap.wav');
   }
 
   // ── TTS — core educational narration ──────────────────────────────────────

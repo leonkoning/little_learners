@@ -39,7 +39,7 @@ class _LetterMatchScreenState extends State<LetterMatchScreen> {
   void initState() {
     super.initState();
     _nextRound();
-    _audio.playMusic('audio/music/space_theme.mp3');
+    _audio.playMusic('audio/music/space_theme.wav');
   }
 
   @override

@@ -25,7 +25,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   @override
   void initState() {
     super.initState();
-    _audioService.playMusic('audio/music/home_theme.mp3');
+    _audioService.playMusic('audio/music/home_theme.wav');
   }
 
   @override
