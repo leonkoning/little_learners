@@ -13,6 +13,7 @@ dependencies:
 
   # Audio
   audioplayers: ^6.0.0
+  flutter_tts: ^4.2.0
 
   # Animations
   lottie: ^3.1.0
@@ -58,11 +59,13 @@ flutter:
     - assets/animations/
     - assets/fonts/
 
-  fonts:
-    - family: Fredoka
-      fonts:
-        - asset: assets/fonts/Fredoka-Regular.ttf
-        - asset: assets/fonts/Fredoka-Bold.ttf
-          weight: 700
-        - asset: assets/fonts/Fredoka-SemiBold.ttf
-          weight: 600
+  # fonts:
+  #   Uncomment and add Fredoka font files to assets/fonts/ to enable custom font.
+  #   Download from: https://fonts.google.com/specimen/Fredoka
+  #   - family: Fredoka
+  #     fonts:
+  #       - asset: assets/fonts/Fredoka-Regular.ttf
+  #       - asset: assets/fonts/Fredoka-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/Fredoka-SemiBold.ttf
+  #         weight: 600

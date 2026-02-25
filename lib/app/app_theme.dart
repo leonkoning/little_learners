@@ -34,6 +34,7 @@ class AppTheme {
           seedColor: spacePurple,
           brightness: Brightness.light,
         ),
+        // Use Fredoka if available, otherwise falls back to system rounded font
         fontFamily: 'Fredoka',
         textTheme: const TextTheme(
           displayLarge: TextStyle(
